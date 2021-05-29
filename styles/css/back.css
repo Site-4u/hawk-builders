@@ -1,0 +1,46 @@
+#back {
+  margin: 30px 0px 10px 100px;
+}
+
+#back .container {
+  position: relative;
+  width: 110px;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#back .container:hover {
+  color: #3bcedb;
+  cursor: pointer;
+}
+
+#back h3 {
+  font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 900px) {
+  #back {
+    margin: 10% 0 2% 10% !important;
+  }
+  #back .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    position: none;
+  }
+  #back h3 {
+    font-size: 1.5rem;
+  }
+}
+/*# sourceMappingURL=back.css.map */
