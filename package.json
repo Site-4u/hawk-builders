@@ -24,7 +24,8 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "export": "next export && touch out/.nojekyll",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
